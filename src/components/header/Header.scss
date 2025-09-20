@@ -1,0 +1,42 @@
+@font-face {
+  font-family: 'InterMedium';
+  src: url('../../assets/fonts/Inter-Medium.otf');
+  font-weight: 500;
+  font-style: medium;
+}
+
+@font-face {
+  font-family: 'InterSemiBold';
+  src: url('../../assets/fonts/Inter-SemiBold.otf');
+  font-weight: 600;
+  font-style: medium;
+}
+
+.header {         
+  height: 100%;              
+  padding-left: 16px;        
+  padding-right: 16px;       
+  justify-content: space-between;
+  align-items: center;
+
+  &__logo {
+    gap: 0;
+
+    &-text {
+      background-color: #F7F7F7;
+      color: black;
+      padding: 6px 20px 6px 6px;
+      border-radius: 15px 0 0 15px; 
+      margin-right: -8px; 
+      z-index: -1;
+      font-family: 'InterSemiBold', sans-serif;
+    }
+
+    &-badge {
+      height: 35px;
+      width: 80px;
+      font-size: 20px;
+      font-family: 'InterMedium', sans-serif;
+    }
+  }
+}
